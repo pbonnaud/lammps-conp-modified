@@ -3,6 +3,12 @@
 The following information is mainly taken from the following repository:
 https://github.com/zhenxingwang/lammps-conp/tree/master
 
+Please note that there is now much more advanced implementations available in LAMMPS (see links below). I recommend considering those more advanced implementations before using this code.
+
+https://www.lammps.org/workshops/Aug21/talk/shern-tee/
+
+https://docs.lammps.org/fix_electrode.html
+
 # Introduction
 
 Constant potential method is an approach to describe charges on electrode atoms in Molecular Dynamics(MD) simulations of Electric Double-Layer Capacitors(EDLCs). The advantage is to take into account the charge fluctuations on the electrode induced by local density fluctuations in the electrolyte solution. This method was developed by Reed et al.<sup>[1]</sup> and some derivation was corrected by Gingrich and Wilson<sup>[2]</sup> later.
