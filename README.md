@@ -9,6 +9,11 @@ https://www.lammps.org/workshops/Aug21/talk/shern-tee/
 
 https://docs.lammps.org/fix_electrode.html
 
+It is not a LAMMPS implementation, but the reader may be interested in this code for doing constant potential molecular dynamics simulations:
+
+https://gitlab.com/ampere2/metalwalls
+
+
 # Introduction
 
 Constant potential method is an approach to describe charges on electrode atoms in Molecular Dynamics(MD) simulations of Electric Double-Layer Capacitors(EDLCs). The advantage is to take into account the charge fluctuations on the electrode induced by local density fluctuations in the electrolyte solution. This method was developed by Reed et al.<sup>[1]</sup> and some derivation was corrected by Gingrich and Wilson<sup>[2]</sup> later.
