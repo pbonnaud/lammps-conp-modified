@@ -1,6 +1,7 @@
 # lammps-conp-modified
 
 The following information is mainly taken from the following repository:
+
 https://github.com/zhenxingwang/lammps-conp/tree/master
 
 Please note that there is now much more advanced implementations available in LAMMPS (see links below). I recommend considering those more advanced implementations before using this code.
